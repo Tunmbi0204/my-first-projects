@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+       <link rel="stylesheet"  
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+         
+
+         *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+     
+      }  
+
+      body{
+        background-color:#f3f3f3;
+      }
+
+
+      i, button{
+        cursor:pointer
+      }
+
+          .header1{
+            display:inline-flex;
+            justify-content:space-between;
+            background-color:white;
+            box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+            top:0px;
+            width:100%;
+            padding-top:10px;
+            padding-bottom:10px;
+          
+          }  
+              
+
+            .header1 .contact{
+                display:inline-flex;
+            }  
+             
+
+            .header1 p{
+                padding-top:10px;
+            }
+        
+          .header1 .contact i{
+            color:white;
+            margin-right:10px;
+            border-radius:5px;
+            font-size:18px;
+            font-weight:bold;
+            padding:6px;
+            padding-left:5px;
+            padding-right:5px;
+            background-color:red;
+            cursor:pointer;
+          }   
+
+          .header1 p{
+               color:black;
+               font-weight:bold;
+               font-size:15px;
+               font-family:helvetica;
+
+          }
+             
+
+
+          .login{
+            margin-right:20px;
+          }
+
+          .select1{
+            margin-left:35px;
+          }
+            
+
+          .select1, .select2{
+                height:30px;
+          }
+                    
+          .header2{     
+            display:inline-flex;
+            justify-content:space-between;
+            background-color:white;
+            box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+            margin-top:0px;
+            width:100%;
+            padding-top:10px;
+            padding-bottom:22px;
+           
+          }
+    
+
+          
+         #explore{ 
+            color:white;
+            margin-right:10px;
+            border-radius:5px;
+            font-size:18px;
+            font-weight:bold;
+            padding-top:9px;
+           padding-bottom:9px;
+            padding-left:5px;
+            padding-right:5px;
+            background-color:red;
+            cursor:pointer;
+      
+          }     
+
+                 
+          .header2 .dropdown{ 
+            color:white;
+            margin-right:10px;
+            border-radius:5px;
+            font-size:20px;
+            font-weight:bold;
+            padding-top:9px;
+           padding-bottom:9px;
+            padding-left:7px;
+            padding-right:7px;
+            background-color:red;
+            cursor:pointer;
+      
+          }  
+
+          .header2 .search{
+               padding:12px;
+               border:none;
+               background-color:#f3f3f3;
+          }
+
+
+          .header2 .basket{ 
+            color:white;
+            margin-right:10px;
+            border-radius:5px;
+            font-size:18px;
+            font-weight:bold;
+            padding-top:9px;
+           padding-bottom:1px;
+            padding-left:5px;
+            padding-right:5px;
+            background-color:red;
+            cursor:pointer;
+      
+          } 
+
+          .header2 .logo p{
+            color:black;
+            font-weight:bold;
+            font-size:18px;
+            padding-left:10px;
+            font-family:helvetica;
+          }
+           
+           .header2 .logo{
+              margin-left:35px;
+              display:flex;
+              justify-content:space-between;
+              
+              
+           }
+
+          .header2 .logo p .span1{
+              color:red;
+          }    
+
+          .header2 .logo p .span2{
+            font-size:14px;
+            margin-top:5px;
+            font-weight:none;
+            
+          }
+
+          .header3{     
+            display:inline-flex;
+            justify-content:space-between;
+            background-color:red;
+            box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+            margin-top:0px;
+            width:100%;
+            padding-top:5px;
+            padding-bottom:5px;
+           
+          } 
+
+          .header3 p{
+            color:white;
+            font-size:16px;
+            font-weight:bold;
+            font-family:helvetica;
+            color:white;
+
+          }
+             
+          #hom{
+              margin-left:35px;
+          }
+             
+          .header4{
+               margin-top:0px;
+                 padding-top:80px;
+                 padding-bottom:80px;
+                 text-align:center;
+                 width:100%;
+                 background-image:url('images/background 9.jpg');
+               background-repeat: no-repeat;
+              background-size: cover;
+
+           }    
+
+           .header4 p{
+            color:white;
+            font-weight:bold;
+            font-size:20px;
+            font-family:helvetica;
+           } 
+
+           .header4 .contact{
+            margin-right:10px;
+           }
+                    
+           .header4 .homcon span{
+
+                color:red;
+           }     
+               
+           .segments{
+            display:grid;
+             margin-left:20px;
+             margin-right:20px;
+             width:100%;
+             margin-top:70px;
+              grid-template-columns:repeat(auto-fit, minmax(160px, 2fr));
+              grid-row-gap:15px;
+              grid-column-gap:10px;
+           }
+
+           .cloth{
+              width:100%;
+             background-color:#fff;
+           }
+
+           .cloth img{
+            width:100%;
+           }
+
+              .discount{
+            padding-top:10px;
+            padding-bottom:10px;
+            width:130px;
+            color:white;
+            font-family:helvetica;
+            background-color:green;
+            font-size:18px;
+            margin-left:0px;
+               margin-top:0px;
+              } 
+
+              .quality{
+                font-family:helvetica;
+                text-align:center;
+                font-size:17px;
+                font-weight:bold
+              }
+
+              .price{
+                font-family:helvetica;
+                font-weight:bold;
+                color:red;
+                text-align:center;
+                font-size:18px;
+              }
+              
+
+              
+           .newsletter{
+            width:100%; 
+            padding-bottom:25px;
+            padding-left:20px;
+            padding-right:20px;
+            background-color:white;
+            padding-top:15px;
+           }  
+
+           .newsletter p{
+            text-align:center;
+           }
+
+           .newsletter input{
+            width:100%;
+            margin-left:35px;
+            padding:9px;
+            background-color:#f3f3f3;
+            border:1px solid black;
+
+           }
+
+           .footer{
+             background-color:black;
+            display:grid;
+             width:100%;
+             margin-top:70px;
+              padding-top:30px;
+              padding-bottom:25px;
+              grid-template-columns:repeat(auto-fit, minmax(190px, 3fr));
+              grid-row-gap:3fr;
+              grid-column-gap:3fr;
+           }
+
+            .footer .end1{
+              width:100%;
+            } 
+
+            .footer p{
+              padding-right:2px;
+              padding-left:2px;
+              padding-bottom:7px;
+              color:white;
+            }
+
+                .newsletter button{
+                   color:white;
+     	font-weight:bold;
+      font-size:20px;
+     	padding:25px;
+     	text-transform:upper-case;
+     	padding-left:2px;
+     	padding-right:2px;
+     	border-top:none;
+     	border-left:none;
+     	border-right:none;
+      width:100%;
+     	border-bottom:1px solid white;
+     	background-color:red;
+        font-weight:bold;
+   
+                }
+
+                @media only screen and (max-width:600px) {
+                  .header1{
+                    display:none;
+                  }
+          
+
+                  .header2 input, #explore{
+                    display:none;
+                  }
+
+                  .header3{
+                    display:block;
+                  }
+
+
+                }
+           
+
+                @media only screen and (min-width:601px) {
+                      .dropdown{
+                        display:none;
+                      }
+                }
+                .header3 a{
+                text-decoration: none;
+                margin: 7px;
+                display: inline-block;
+                color:white;
+   
+            }
+      .header3 a:hover{
+    background-color: black;
+                }
+               
+
+
+            </style>
+
+        </head>
+
+        <body>
+                          
+            <div class="header1">
+    
+                <select class="select1">
+                    <option value="english">English</option>
+                    <option value="francais">Francais</option>
+                    <option value="dutch">Dutch</option>
+                   
+                </select>
+        
+                
+                <select class="select2">
+                    <option value="usdt">Usdt</option>
+                    <option value="euro">Euro</option>
+                    <option value="dutch">Dutch</option>
+                    <option value="English">Naira</option>
+                    
+                   </select>
+        
+                <div class="contact">
+                  <i class="fa fa-phone"></i>
+                  <p>00 42 450 008</p>
+                </div>
+        
+        
+        
+                <p class="account">My Account</p>
+                <p class="wishlist">Wishlist</p>
+                <p class="checkout">Checkout</p>
+                <p class="signup">Signup</p>
+                <p class="login">Login</p>
+        
+        </div>
+        
+        
+        
+         <div class="header2">
+        
+            <div class="logo">
+                  <i class="fa fa-cart-plus" id="basket"></i>
+                  <div>
+                    <p>Daily<span class="span1">Shop</span> <br>
+                     <span class="span2">your number one shopping platform</span>  </p>
+                     </div>
+            </div>
+      <div><input class="search" placeholder="search here..." type="text">
+                 <i id='explore' class="fa fa-search"></i> 
+           </div>
+           
+        
+                
+          
+         </div>  
+        
+        
+         <div class="header3">
+          <a href="home.html" title="Home-Page">Home</a>
+          <a href="contact.html" title="contact us">contact</a>
+          <a href="female.html" title="female wears">Female Wears</a>
+          <a href="men.html" title="men wears">Men Wears</a>
+          <a href="archive.html" title="About us">Blog</a>
+            
+        
+         </div> 
+         
+                <div class="header4">
+                    <p class="contact">FASHION</p>
+                    <p class="homcon">Home / <span>Female</span></p>
+                 </div> 
+
+
+              <div class='segments'> 
+
+
+
+                <div class='cloth'>
+                    <p class='discount'>50% discount</p>
+                    <img src='images/gown 1.jpg'>
+                    <p class='price'>50$</p>
+                    <p class='quality'>Best cloth to wear to occasion</p>
+                 </div>
+
+                    <div class='cloth'>
+                     <p class='discount'>50% discount</p>
+                     <img src='images/gown 2.jpg'>
+                     <p class='price'>50$</p>
+                     <p class='quality'>Best cloth to wear to occasion</p>
+                 </div>
+
+                     <div class='cloth'>
+                         <p class='discount'>50% discount</p>
+                         <img src='images/gown 3.jpg'>
+                         <p class='price'>50$</p>
+                         <p class='quality'>Best cloth to wear to occasion</p>
+                     </div>
+
+                         
+                         <div class='cloth'>
+                             <p class='discount'>50% discount</p>
+                             <img src='images/gown 4.jpg'>
+                             <p class='price'>50$</p>
+                             <p class='quality'>Best cloth to wear to occasion</p>
+                         </div>
+
+                             
+
+                             <div class='cloth'>
+                                 <p class='discount'>50% discount</p>
+                                 <img src='images/gown 5.jpg'>
+                                 <p class='price'>50$</p>
+                                 <p class='quality'>Best cloth to wear to occasion</p>
+          
+                             </div>
+                                 
+
+                                 <div class='cloth'>
+                                     <p class='discount'>50% discount</p>
+                                     <img src='images/gown 6.jpg'>
+                                     <p class='price'>50$</p>
+                                     <p class='quality'>Best cloth to wear to occasion</p>
+                                 </div>
+
+                                     
+
+
+                                     <div class='cloth'>
+                                         <p class='discount'>50% discount</p>
+                                         <img src='images/gown 7.jpg'>
+                                         <p class='price'>50$</p>
+                                         <p class='quality'>Best cloth to wear to occasion</p>
+                                     </div>
+                  
+
+                 <div class='cloth'>
+                       <p class='discount'>50% discount</p>
+                       <img src='images/gown 8.jpg'>
+                       <p class='price'>50$</p>
+                       <p class='quality'>Best cloth to wear to occasion</p>
+                    </div>
+
+                       <div class='cloth'>
+                        <p class='discount'>50% discount</p>
+                        <img src='images/gown 9.jpg'>
+                        <p class='price'>50$</p>
+                        <p class='quality'>Best cloth to wear to occasion</p>
+                    </div>
+
+                        <div class='cloth'>
+                            <p class='discount'>50% discount</p>
+                            <img src='images/gown 10.jpg'>
+                            <p class='price'>50$</p>
+                            <p class='quality'>Best cloth to wear to occasion</p>
+                        </div>
+
+                            
+                            <div class='cloth'>
+                                <p class='discount'>50% discount</p>
+                                <img src='images/gown 11.jpg'>
+                                <p class='price'>50$</p>
+                                <p class='quality'>Best cloth to wear to occasion</p>
+                            </div>
+
+                                
+
+                                <div class='cloth'>
+                                    <p class='discount'>50% discount</p>
+                                    <img src='images/gown 13.jpg'>
+                                    <p class='price'>50$</p>
+                                    <p class='quality'>Best cloth to wear to occasion</p>
+             
+                                </div>
+                                    
+
+                                    <div class='cloth'>
+                                        <p class='discount'>50% discount</p>
+                                        <img src='images/gown 12.jpg'>
+                                        <p class='price'>50$</p>
+                                        <p class='quality'>Best cloth to wear to occasion</p>
+                                    </div>
+
+                                        
+
+
+                                        <div class='cloth'>
+                                            <p class='discount'>50% discount</p>
+                                            <img src='images/gown 13.jpg'>
+                                            <p class='price'>50$</p>
+                                            <p class='quality'>Best cloth to wear to occasion</p>
+                                        </div>
+                     
+                                      
+              </div>  
+           <form>
+                <div style='margin-top:50px' class="newsletter">
+                 <p style='font-weight:bold; font-family:helvetica'>SUBSCRIBE OUR NEWS LETTER</p>
+                  <p style='font-family:helvetica; font-size:18px' class='small'>You can subscribe our newsletter to get the latest update of our company</p>
+                  <div style='display:flex;  margin-top:20px'>
+                   <input placeholder="Enter your Email" type="text"> 
+                   <button class="sub">Subscribe</button> </div>
+                </div>
+       
+               </form>
+            
+       
+       
+       
+               <div class='footer'> 
+                     
+                 <div class='end1'>
+                  <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                  <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                 </div>
+           
+       
+       
+                 <div class='end1'>
+                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                  </div>
+       
+                  
+                  <div class='end1'>
+                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                  </div>
+       
+                  
+       
+                  <div class='end1'>
+                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                  </div>
+       
+                  
+       
+       
+                  <div class='end1'>
+                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                  </div>
+       
+                  
+       
+       
+                  <div class='end1'>
+                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                  </div>
+        
+
+        
+        </body>
+
+        </html>

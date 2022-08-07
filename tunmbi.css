@@ -1,0 +1,458 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+  background-color:#f3f3f3;
+}
+
+button, i{
+  cursor:pointer
+}
+  
+.header{
+  margin-top:0;
+  width:100%;
+  padding-bottom:20px;
+  background-color:#00203FFF;
+ }
+
+.navigators{
+  padding-top:15px;
+  display:inline-flex;
+  justify-content:space-between;
+  top:0;
+  width:100%;
+  padding-bottom:10px;
+  background-color:#00203FFF;
+}
+
+.navigators p{
+   margin-left:35px;
+   color:white;
+   font-weight:bold;
+   letter-spacing:1px;
+   font-family:helvetica
+}
+
+.navigators a, .navigators i{
+   text-decoration:none;
+   color:white;
+   font-size:19px;
+   font-family:;
+   }
+
+.navigators a:hover, .navigators i:hover{
+   text-decoration:underline;
+   color:coral;
+   text-decoration-color:white;
+   font-size:21px;
+}
+
+.heading{
+  display:inline-flex;
+  justify-content:space-between;
+  margin-top:15px;
+}
+
+.heading .colored{
+     color:brown;
+     font-size:18px;
+     font-family:helvetica;
+    font-weight:bold;
+      margin-top:10px;
+      margin-left:35px;
+}
+
+.heading .big{
+     color:white;
+     font-size:21px;
+     margin-top:10px;
+     font-family:helvetica;
+    font-weight:bold;
+    margin-left:35px;
+}
+
+.heading .small{
+     color:white;
+     font-size:19.5px;
+     margin-top:10px;
+     margin-left:35px;
+     font-family:helvetica;
+ 
+}
+  
+.heading p{
+ padding-right:15px;
+}
+
+.heading .absolute{
+  position:absolute;
+
+}
+
+.heading img{
+  position:relative;
+  width:50%;
+  height:auto;
+  margin-right:15px;
+  border-radius:5px;
+}
+
+.absolute{
+  color:white;
+}
+
+.btns{
+  display:inline-flex;
+  
+}
+
+.btns button{
+width:120px;
+color:white;
+font-weight:bold;
+padding:8px;
+text-transform:upper-case;
+padding-left:2px;
+padding-right:2px;
+border-top:none;
+border-left:none;
+border-right:none;
+margin-top:10px;
+border-bottom:1px solid white;
+background-color:coral;
+margin-left:35px;
+font-weight:bold;
+border-radius:8px;
+}
+.btns button:hover{
+ border:2px solid  white;
+}
+
+.btns i{
+color:white;
+font-size:19px;
+}
+
+.services{
+margin-left:35px;
+color:black;
+margin-top:20px;
+font-weight:bold;
+font-family:helvetica;
+font-size:20px;
+}
+
+.webtype{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(160px, 2fr));
+margin-left:20px;
+margin-top:15px;
+margin-right:20px;
+}
+
+.ecommerce, .banking, .crypto, .gaming{
+width:100%;
+text-align:center;
+}
+
+
+ .ecommerce img, .banking img, .crypto img, .gaming img{
+width:70px;
+height:auto;
+border-radius:50px;
+border:2px dotted coral;
+}
+
+.ecommerce .big, .crypto .big, .gaming .big, .banking .big{
+font-size:20px;
+font-weight:bold;
+font-family:helvetica
+}
+
+.ecommerce .small, .crypto .small, .gaming .small, .banking .small{
+font-size:18px;
+font-family:helvetica;
+}
+
+.about{
+margin-top:60px;
+padding-top:15px;
+background-color:#00203FFF;
+width:100%;
+padding-bottom:15px;
+justify-content:space-between;
+display:inline-flex;
+}
+
+
+.patronize{
+padding-top:15px;
+background-color:white;
+min-width:100px;
+margin-left:20px;
+margin-right:20px;
+padding-bottom:15px;
+justify-content:space-between;
+display:inline-flex;
+}
+
+.about img{
+width:50%;
+height:auto;
+margin-left:20px;
+}
+
+
+.patronize img{
+width:50%;
+height:auto;
+margin-right:15px;
+}
+
+
+.about .colored{
+font-size:18px;
+font-family:helvetica;
+font-weight:bold;
+color:brown;
+}
+
+.patronize .colored{
+font-size:20px;
+font-family:helvetica;
+font-weight:bold;
+
+}
+
+
+.about .normal{
+font-size:19px;
+font-family:helvetica;
+color:white;
+}  
+
+
+.patronize .normal{
+font-size:19px;
+font-family:helvetica;
+
+}  
+
+.newsletter .colored{
+font-size:17.5px;
+font-family:helvetica;
+font-weight:bold;
+margin-left:20px;
+color:brown;
+}
+
+
+.newsletter .normal{
+font-size:19px;
+margin-left:20px;
+font-family:helvetica;
+color:white;
+}  
+
+.about p{
+padding-top:20px;
+margin-right:15px;
+padding-left:15px;
+}
+
+.patronize p{
+margin-left:20px;
+margin-top:20px;
+}  
+
+.feature{
+text-align:center
+}  
+
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(160px, 2fr));
+margin-left:20px;
+margin-top:15px;
+background-color:#00203FFF;
+grid-row-gap:4fr;
+grid-column-gap:2fr;
+padding-top:15px;
+min-width:100px;
+padding-bottom:20px;
+margin-right:20px;
+}
+
+
+
+
+.feature img{
+width:90%;
+border-radius:7px;
+}
+
+
+.feature .big{
+font-size:17px;
+font-family:helvetica;
+color:white;
+margin-top:6px;
+font-weight:bold
+} 
+
+
+.feature .small{
+font-size:18px;
+font-family:helvetica;
+color:white;
+} 
+
+
+.btns2{
+ margin-top:0;
+ background-color:#00203FFF;
+  min-width:100px;
+  margin-left:20px;
+  margin-right:20px;
+  padding-bottom:15px;
+  padding-top:30px;
+}
+
+
+.exp{
+width:120px;
+color:white;
+font-weight:bold;
+padding:8px;
+text-transform:upper-case;
+padding-left:2px;
+padding-right:2px;
+border:2px solid white;
+margin-right:10px;
+border-bottom:1px solid white;
+background-color:#00203FFF;
+margin-left:20px;
+font-weight:bold;
+border-radius:8px;
+}
+
+
+    
+.ord{
+width:120px;
+color:white;
+font-weight:bold;
+padding:8px;
+text-transform:upper-case;
+padding-left:2px;
+padding-right:2px;
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom:1px solid white;
+background-color:coral;
+font-weight:bold;
+border-radius:8px;
+}
+
+.box{
+display:inline-flex;
+
+}
+
+.box input{
+background-color:white;
+padding:11px;
+width:100%;
+border:none;
+margin-left:20px;
+}
+
+.box button{
+background-color:coral;
+color:white;
+padding:11px;
+margin-top:4px;
+border:none;
+
+}
+
+.newsletter img{
+width:30%;
+height:auto;
+margin-right:15px;
+}
+
+
+.newsletter{
+padding-top:15px;
+display:inline-flex;
+background-color:#00203FFF;
+justify-content:space-between;
+padding-bottom:15px;
+margin-left:20px;
+margin-right:20px;
+margin-top:30px;
+min-width:100px;
+}
+
+@media only screen and (min-width:601px) {
+
+#navigate{
+display:none;
+}
+
+#navbar{
+display:none
+}
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+.about img,  .heading img,  .patronize img{
+display:none;
+}
+
+.home, .con, .abt, .srv, .mode{
+display:none
+}
+
+}
+
+
+
+@media only screen and (max-width:510px) {
+.newsletter img{
+display:none
+}    
+}
+
+
+.footer{
+width:100%;
+text-align:center;
+margin-top:70px;
+padding-top:15px;
+padding-bottom:7px;
+background-color:#00203fff
+}
+
+.footer .cpy{
+font-family:helvetica;
+color:white;
+}
+
+
+.footer .tub{
+font-family:helvetica;
+color:coral;
+font-weight:bold;
+}
